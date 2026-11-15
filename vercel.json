@@ -1,100 +1,18 @@
 {
-    "version": 2,
-    "builds": [
-        {
-            "src": "./app.py",
-            "use": "@vercel/python",
-            "config": { "runtime": "python3.8" }
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/app.py"
-        }
-    ]
+  "version": 2,
+  "builds": [
+    {
+      "src": "./app.py",
+      "use": "@vercel/python",
+      "config": {
+        "runtime": "@vercel/python@4.3.0"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/app.py"
+    }
+  ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# MINISTER UID PASS LIKE API SRC
-# POWERED BY : @minister_69
-# CHANNEL : @minister_6T9
